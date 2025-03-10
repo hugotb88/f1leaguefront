@@ -1,68 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+html {
+    font-family: "Titillium Web", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("./assets/background.jpg");
+    background-color: rgba(255, 255, 255, 0.9); /* Example: White background with 50% opacity */
+    
+}
+
+/* VARIABLES */
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --mercedes-color: #00d2be;
+    --redbull-color: #060442;
+    --ferrari-color: #dc0000;
+    --hass-color: #ffffff;
+    --mclaren-color: #ff8700;
+    --alpine-color: #df81dc;
+    --vcarb-color: #0572ff;
+    --sauber-color: #28ec2b;
+    --williams-color: #134cbf;
+    --aston-color: #032215;
+    --hover-color: #38383f;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.table-container {
+    width: 30%;
+    min-width: 600px;
+    /* border: 1px solid black; */
+    margin: 100px auto;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.table-container th {
+    display: none;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.table-container tr {
+    display: flex;
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.table-container tr.table-content {
+    justify-content: space-between;
+    padding: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.table-container tr.table-content td {
+    margin: 0 20px 0 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px;
 }
+
+.table-container tr.table-content td .position {
+    border-right: 5px solid var(--mercedes-color);
+    padding-right: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.table-container tr.table-content td .driver-name {
+    margin-left: 10px;
+}
+
+.table-container tr.table-content td .driver-surname {
+    font-weight: bolder;
+}
+
+.table-container tr.table-content td .team {
+    font-size: 1rem;
+    color: #666;
+    margin-left: 10px;
+}
+
+.table-container tr.table-content td .points {
+    background-color: #ccc;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+
+.table-container tr.table-content td i {
+    margin-left: 20px;
+    color: #e10600;
+    font-size: 18px;
+}
+
+/* HOVER */
+
+.table-container tr:hover {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+
+.table-container tr:hover .points {
+    color: black;
+}
+
+/* DRIVER 1 - Mercedes*/
+.table-container .table-content.mercedes .position {
+    border-right: 5px solid var(--mercedes-color);
+}
+
+/* DRIVER 2  - Red bull*/
+.table-container .table-content.redbull .position {
+    border-right: 5px solid var(--redbull-color);
+}
+
+/* DRIVER 3 - Ferrari*/
+.table-container .table-content.ferrari .position {
+    border-right: 5px solid var(--ferrari-color);
+}
+
+/* DRIVER 4  - HAAS*/
+.table-container .table-content.haas .position {
+    border-right: 5px solid var(--haas-color);
+}
+
+/* DRIVER 5 - McLaren*/
+.table-container .table-content.mclaren .position {
+    border-right: 5px solid var(--mclaren-color);
+}
+
+/* DRIVER 6  - ALPINE*/
+.table-container .table-content.alpine .position {
+    border-right: 5px solid var(--alpine-color);
+}
+
+/* DRIVER 7 - VCARB*/
+.table-container .table-content.vcarb .position {
+    border-right: 5px solid var(--vcarb-color);
+}
+
+/* DRIVER 8  - SAUBER*/
+.table-container .table-content.sauber .position {
+    border-right: 5px solid var(--sauber-color);
+}
+
+/* DRIVER 9 - WILLIAMS*/
+.table-container .table-content.williams .position {
+    border-right: 5px solid var(--williams-color);
+}
+
+/* DRIVER 10 - ASTON MARTIN*/
+.table-container .table-content.astonmartin .position {
+    border-right: 5px solid var(--aston-color);
+}
+
+
+
