@@ -1,32 +1,23 @@
 import '../src/css/App.css'
 import '../src/css/index.css'
-import DriverGeneralStandings from './components/DriverGeneralStandings'
-import Header from './components/Header'
-import { db } from './data/mocked'
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DriverGeneralStandings from './components/DriverGeneralStandings';
+import Races from './components/Races';
+import Layout from './Router/Layout';
+import Home from './components/Home';
 
 
 function App() {
 
-  // Load data from local
-  const [data] = useState(db)
-
   return (
-    <>
-      <Header 
-        title="General Standings"
-      />
-      <table className="table-container">
-        <tbody >
-          {data.map((driver) => (
-            <DriverGeneralStandings
-              key={driver.id}
-              driver={driver}
-            />
-          ))}
-        </tbody>
-      </table>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="home" element={<Home />} />
+        <Route path="generalStandings" element={<DriverGeneralStandings />} />
+        <Route path="races" element={<Races />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
