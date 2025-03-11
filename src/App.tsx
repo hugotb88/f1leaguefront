@@ -5,6 +5,7 @@ import Header from './components/Header'
 import { db } from './data/mocked'
 import { useState } from 'react'
 
+
 function App() {
 
   // Load data from local

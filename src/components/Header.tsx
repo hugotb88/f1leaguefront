@@ -9,8 +9,8 @@ function Header({ title }: HeaderProps) {
     return (
         <header className='header'>
             <div >
-                <h2>Este es el pinshi Header mamalon culeros</h2>
-                <h3>{title}</h3>
+                <h2 className='header-title'>{title}</h2>
+                <h3 className='header-title'>Liga sin Chill 2025</h3>
             </div>
         </header>
     )

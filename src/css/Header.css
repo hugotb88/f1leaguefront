@@ -1,7 +1,20 @@
 .header {
     color: white;
-    padding: 1px;
+    padding: 1rem; /* Increased padding for better spacing */
     background-color: black;
     text-align: left;
     background-image: url("../assets/headerImage.jpg");
-}
+    background-position: center; /* Centered for better mobile display */
+    background-size: cover; /* Cover the entire header */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    text-align: center; /* Center text on mobile */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      padding: 0.5rem; /* Reduced padding for mobile */
+      text-align: center; /* Center text on mobile */
+      background-position: center; /* Ensure image is centered */
+    }
+  }
