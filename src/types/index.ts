@@ -1,5 +1,5 @@
 
-// Type Driver  definition
+// Type Driver definition
 export type Driver = {
     id: number
     name: string

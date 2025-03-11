@@ -1,5 +1,4 @@
 import type { DriverGeneral } from "../types";
-import '../index.css'
 
 // Creating a Type for the props of Header
 type DriverGeneralProps = {
@@ -8,7 +7,7 @@ type DriverGeneralProps = {
 
 function DriverGeneralStandings({ driver }: DriverGeneralProps) {
     return (
-        <tr className={`table-content ${driver.teamCSS}`}>
+        <tr className={`table-content ${driver.teamCSS}`} >
             <td>
                 <span className="position">{driver.championshipPosition}</span>
                 <span className="driver-name">{driver.name} - </span>
