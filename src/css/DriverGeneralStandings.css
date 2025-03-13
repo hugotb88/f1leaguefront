@@ -1,22 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 
-/* VARIABLES */
-:root {
-    --mercedes-color: #00d2be;
-    --redbull-color: #060442;
-    --ferrari-color: #dc0000;
-    --haas-color: #ffffff;
-    --mclaren-color: #ff8700;
-    --alpine-color: #df81dc;
-    --vcarb-color: #0572ff;
-    --sauber-color: #28ec2b;
-    --williams-color: #134cbf;
-    --aston-color: #032215;
-    --hover-color: #38383f;
-}
-
 .table-container {
-    width: 95%;
+    width: 100%;
     min-width: auto;
     margin: 20px auto;
     overflow-x: auto;
@@ -34,7 +19,7 @@
     transition: 0.3s;
     cursor: pointer;
     margin-bottom: 5px;
-    min-width: 600px;
+    background: white;
 }
 
 .table-container tr.table-content {
@@ -54,7 +39,7 @@
 }
 
 .table-container tr.table-content td .position {
-    border-right: 3px solid var(--mercedes-color);
+    border-right: 5px solid var(--mercedes-color);
     padding-right: 5px;
     font-size: 1rem;
     font-weight: bold;
@@ -100,28 +85,26 @@
 }
 
 /* DRIVER COLORS */
-.table-container .table-content.mercedes .position { border-right: 3px solid var(--mercedes-color); }
-.table-container .table-content.redbull .position { border-right: 3px solid var(--redbull-color); }
-.table-container .table-content.ferrari .position { border-right: 3px solid var(--ferrari-color); }
-.table-container .table-content.haas .position { border-right: 3px solid var(--haas-color); }
-.table-container .table-content.mclaren .position { border-right: 3px solid var(--mclaren-color); }
-.table-container .table-content.alpine .position { border-right: 3px solid var(--alpine-color); }
-.table-container .table-content.vcarb .position { border-right: 3px solid var(--vcarb-color); }
-.table-container .table-content.sauber .position { border-right: 3px solid var(--sauber-color); }
-.table-container .table-content.williams .position { border-right: 3px solid var(--williams-color); }
-.table-container .table-content.astonmartin .position { border-right: 3px solid var(--aston-color); }
+.table-container .table-content.mercedes .position { border-color: var(--mercedes-color); }
+.table-container .table-content.redbull .position { border-color: var(--redbull-color); }
+.table-container .table-content.ferrari .position { border-color: var(--ferrari-color); }
+.table-container .table-content.haas .position { border-color: var(--haas-color); }
+.table-container .table-content.mclaren .position { border-color: var(--mclaren-color); }
+.table-container .table-content.alpine .position { border-color: var(--alpine-color); }
+.table-container .table-content.vcarb .position { border-color: var(--vcarb-color); }
+.table-container .table-content.sauber .position { border-color: var(--sauber-color); }
+.table-container .table-content.williams .position { border-color: var(--williams-color); }
+.table-container .table-content.astonmartin .position { border-color: var(--aston-color); }
 
 /* Tablet Responsiveness */
 @media (min-width: 601px) and (max-width: 1024px) {
     .table-container {
-        width: 80%;
         margin: 30px auto;
     }
 
     .table-container tr {
         padding: 8px;
         margin-bottom: 8px;
-        min-width: 700px;
     }
 
     .table-container tr.table-content td {
@@ -153,7 +136,6 @@
 /* Desktop Responsiveness */
 @media (min-width: 1025px) {
     .table-container {
-        width: 50%;
         margin: 70px auto;
     }
 
@@ -195,15 +177,13 @@
 /* Mobile iPhone Responsiveness */
 @media (max-width: 600px) { /* Adjust breakpoint as needed */
     .table-container {
-        width: 100%; /* Full width for mobile */
-        margin: 10px auto; /* Reduced margin */
+        margin: 16px auto; /* Reduced margin */
         overflow-x: auto; /* Enable horizontal scrolling */
     }
 
-    .table-container tr {
-        padding: 5px; /* Reduced padding */
-        margin-bottom: 5px; /* Reduced margin */
-        min-width: 320px; /* Minimum width for iPhone screens */
+    .table-container tr.table-content {
+        margin-bottom: 4px;
+        padding: 8px;
     }
 
     .table-container tr.table-content td {
