@@ -1,5 +1,4 @@
 import Header from "./Header";
-import { table } from "react-bootstrap";
 import { db } from "../data/mocked";
 import { useState } from "react";
 import '../css/DriverGeneralStandings.css'
