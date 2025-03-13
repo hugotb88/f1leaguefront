@@ -10,11 +10,17 @@
     text-align: center; /* Center text on mobile */
   }
   
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
-    .header {
-      padding: 0.5rem; /* Reduced padding for mobile */
-      text-align: center; /* Center text on mobile */
-      background-position: center; /* Ensure image is centered */
-    }
+  .row-button-header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    background-image: url("../assets/backHeader.jpg");
+    background-position: center; /* Centered for better mobile display */
+    background-size: cover; /* Cover the entire header */
+    background-repeat: no-repeat; /* Prevent image repetition */
+  }
+
+  .button-header{
+    background-color: rgb(245, 51, 51);
+    border-color: rgb(124, 145, 162);
   }

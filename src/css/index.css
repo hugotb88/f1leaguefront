@@ -28,9 +28,9 @@ html {
 
 .table-container {
     width: 30%;
-    min-width: 600px;
+    min-width: 200px;
     /* border: 1px solid black; */
-    margin: 100px auto;
+    margin: 70px auto;
 }
 
 .table-container th {

@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+/* VARIABLES */
+:root {
+    --mercedes-color: #00d2be;
+    --redbull-color: #060442;
+    --ferrari-color: #dc0000;
+    --haas-color: #ffffff;
+    --mclaren-color: #ff8700;
+    --alpine-color: #df81dc;
+    --vcarb-color: #0572ff;
+    --sauber-color: #28ec2b;
+    --williams-color: #134cbf;
+    --aston-color: #032215;
+    --hover-color: #38383f;
+}
+
+.table-container {
+    width: 95%;
+    min-width: auto;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.table-container th {
+    display: none;
+}
+
+.table-container tr {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 5px;
+    min-width: 600px;
+}
+
+.table-container tr.table-content {
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+.table-container tr.table-content td {
+    margin: 0 5px;
+    font-size: 1rem;
+    text-align: left; /* Default text alignment to left */
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table-container tr.table-content td .position {
+    border-right: 3px solid var(--mercedes-color);
+    padding-right: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.table-container tr.table-content td .driver-name {
+    margin-left: 5px;
+}
+
+.table-container tr.table-content td .driver-surname {
+    font-weight: bolder;
+}
+
+.table-container tr.table-content td .team {
+    font-size: 0.8rem;
+    color: #666;
+    margin-left: 5px;
+}
+
+.table-container tr.table-content td .points {
+    background-color: #ccc;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    padding: 0 5px;
+    text-align: right; /* Points aligned to the right */
+    border-left: 1px solid #ccc; /* Add a left border to separate points */
+}
+
+.table-container tr.table-content td i {
+    margin-left: 5px;
+    color: #e10600;
+    font-size: 14px;
+}
+
+/* HOVER */
+.table-container tr:hover {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+
+.table-container tr:hover .points {
+    color: black;
+}
+
+/* DRIVER COLORS */
+.table-container .table-content.mercedes .position { border-right: 3px solid var(--mercedes-color); }
+.table-container .table-content.redbull .position { border-right: 3px solid var(--redbull-color); }
+.table-container .table-content.ferrari .position { border-right: 3px solid var(--ferrari-color); }
+.table-container .table-content.haas .position { border-right: 3px solid var(--haas-color); }
+.table-container .table-content.mclaren .position { border-right: 3px solid var(--mclaren-color); }
+.table-container .table-content.alpine .position { border-right: 3px solid var(--alpine-color); }
+.table-container .table-content.vcarb .position { border-right: 3px solid var(--vcarb-color); }
+.table-container .table-content.sauber .position { border-right: 3px solid var(--sauber-color); }
+.table-container .table-content.williams .position { border-right: 3px solid var(--williams-color); }
+.table-container .table-content.astonmartin .position { border-right: 3px solid var(--aston-color); }
+
+/* Tablet Responsiveness */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .table-container {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .table-container tr {
+        padding: 8px;
+        margin-bottom: 8px;
+        min-width: 700px;
+    }
+
+    .table-container tr.table-content td {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    .table-container tr.table-content td .position {
+        font-size: 1.2rem;
+        border-right: 4px solid var(--mercedes-color);
+        padding-right: 8px;
+    }
+
+    .table-container tr.table-content td .team {
+        font-size: 0.9rem;
+    }
+
+    .table-container tr.table-content td .points {
+        font-size: 1rem;
+        text-align: right;
+        border-left: 1px solid #ccc; /* Add a left border to separate points */
+    }
+
+    .table-container tr.table-content td i {
+        font-size: 16px;
+    }
+}
+
+/* Desktop Responsiveness */
+@media (min-width: 1025px) {
+    .table-container {
+        width: 50%;
+        margin: 70px auto;
+    }
+
+    .table-container tr {
+        padding: 0;
+        margin-bottom: 0;
+        min-width: 200px;
+    }
+
+    .table-container tr.table-content td {
+        margin: 0 20px 0 10px;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+
+    .table-container tr.table-content td .position {
+        border-right: 5px solid var(--mercedes-color);
+        padding-right: 10px;
+        font-size: 1.4rem;
+    }
+
+    .table-container tr.table-content td .team {
+        font-size: 1rem;
+    }
+
+    .table-container tr.table-content td .points {
+        font-size: 1.1rem;
+        text-align: right;
+        border-left: 1px solid #ccc; /* Add a left border to separate points */
+        padding: 0 10px;
+    }
+
+    .table-container tr.table-content td i {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}
+
+/* Mobile iPhone Responsiveness */
+@media (max-width: 600px) { /* Adjust breakpoint as needed */
+    .table-container {
+        width: 100%; /* Full width for mobile */
+        margin: 10px auto; /* Reduced margin */
+        overflow-x: auto; /* Enable horizontal scrolling */
+    }
+
+    .table-container tr {
+        padding: 5px; /* Reduced padding */
+        margin-bottom: 5px; /* Reduced margin */
+        min-width: 320px; /* Minimum width for iPhone screens */
+    }
+
+    .table-container tr.table-content td {
+        margin: 0 3px; /* Reduced margin */
+        font-size: 0.9rem; /* Reduced font size */
+        padding: 3px; /* Reduced padding */
+    }
+
+    .table-container tr.table-content td .position {
+        border-right: 2px solid var(--mercedes-color); /* Thinner border */
+        padding-right: 3px; /* Reduced padding */
+        font-size: 0.9rem; /* Reduced font size */
+    }
+
+    .table-container tr.table-content td .team {
+        font-size: 0.7rem; /* Further reduced font size */
+    }
+
+    .table-container tr.table-content td .points {
+        font-size: 0.8rem; /* Reduced font size */
+        padding: 0 3px; /* Reduced padding */
+        border-left: 1px solid #ccc;
+    }
+
+    .table-container tr.table-content td i {
+        margin-left: 3px; /* Reduced margin */
+        font-size: 12px; /* Reduced font size */
+    }
+}

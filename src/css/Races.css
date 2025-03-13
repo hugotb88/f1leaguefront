@@ -1,0 +1,16 @@
+.card-races{
+    padding: 0.2em;
+}
+
+.card-races-title {
+    color: whitesmoke;
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+}
+
+.card-races-footer {
+    color: azure;
+    background-color: rgb(29, 106, 10);
+    text-align: center;
+}

@@ -1,5 +1,6 @@
 import '../src/css/App.css'
 import '../src/css/index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import DriverGeneralStandings from './components/DriverGeneralStandings';
 import Races from './components/Races';
