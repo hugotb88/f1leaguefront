@@ -29,7 +29,7 @@ function Header({ title }: HeaderProps) {
             <Container fluid>
                 <Row className='row-button-header'>
                     <nav>
-                        <Button className='button-header' onClick={() => handleNavigate('/home')}>Home</Button>
+                        {/* <Button className='button-header' onClick={() => handleNavigate('/home')}>Home</Button> */}
                         <Button className='button-header' onClick={() => handleNavigate('/generalStandings')}>General Standings</Button>
                         <Button className='button-header' onClick={() => handleNavigate('/races')}>Races</Button>
                     </nav>

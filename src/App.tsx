@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import DriverGeneralStandings from './components/DriverGeneralStandings';
 import Races from './components/Races';
 import Layout from './Router/Layout';
-import Home from './components/Home';
+// import Home from './components/Home';
 
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />
-        <Route path="home" element={<Home />} />
+        {/* <Route path="home" element={<Home />} /> */}
+        <Route index element={<DriverGeneralStandings />} />
         <Route path="generalStandings" element={<DriverGeneralStandings />} />
         <Route path="races" element={<Races />} />
       </Routes>
