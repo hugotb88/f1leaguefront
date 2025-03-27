@@ -9,25 +9,25 @@ export const db: DriverGeneral[] = [
         team: 'Mercedes',
         teamCSS: 'mercedes',
         championshipPosition: 1,
-        championshipPoints: 109
+        championshipPoints: 128
     },
     {
         id: 2,
-        name: 'Panda',
-        gamertag: 'DesMutter',
-        team: 'Visa Cash App RB',
-        teamCSS: 'vcarb',
-        championshipPosition: 2,
-        championshipPoints: 95  
-    },
-    {
-        id: 3,
         name: 'Teniente',
         gamertag: 'vteniente',
         team: 'McLaren',
         teamCSS: 'mclaren',
+        championshipPosition: 2,
+        championshipPoints: 123
+    },
+    {
+        id: 3,
+        name: 'Panda',
+        gamertag: 'DesMutter',
+        team: 'Visa Cash App RB',
+        teamCSS: 'vcarb',
         championshipPosition: 3,
-        championshipPoints: 73
+        championshipPoints: 110  
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ export const db: DriverGeneral[] = [
         team: 'Scuderia Ferrari HP',
         teamCSS: 'ferrari',
         championshipPosition: 4,
-        championshipPoints: 22
+        championshipPoints: 41
     },
     {
         id: 5,

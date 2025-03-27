@@ -27,9 +27,9 @@ export const tracks: Track[] = [{
 }, {
   "id": 12, "name": "Japan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/13.jpg",
 }, {
-  "id": 13, "name": "Las Vegas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/31.jpg"
+  "id": 13, "name": "Las Vegas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/31.jpg", winner: "vteniente"
 }, {
-  "id": 14, "name": "Lusail", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/32.jpg",
+  "id": 14, "name": "Lusail", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/32.jpg", winner: "vteniente"
 }, {
   "id": 15, "name": "Mexico", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/19.jpg",
 }, {
