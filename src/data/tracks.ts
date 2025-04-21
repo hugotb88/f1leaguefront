@@ -17,9 +17,9 @@ export const tracks: Track[] = [{
 }, {
   "id": 7, "name": "Canada", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/06.jpg", winner: "vteniente"
 }, {
-  "id": 8, "name": "China", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/02.jpg"
+  "id": 8, "name": "China", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/02.jpg", winner: "vteniente"
 }, {
-  "id": 9, "name": "Great Britain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/07.jpg"
+  "id": 9, "name": "Great Britain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/07.jpg", winner: "DesMutter"
 }, {
   "id": 10, "name": "Hungary", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/09.jpg"
 }, {
@@ -43,7 +43,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 20, "name": "Portugal", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/28.jpg", winner: "GBuffon"
 }, {
-  "id": 21, "name": "Saudi Arabia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/29.jpg"
+  "id": 21, "name": "Saudi Arabia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/29.jpg", winner: "GBuffon"
 }, {
   "id": 22, "name": "Singapore", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/12.jpg",
 }, {
