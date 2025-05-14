@@ -49,5 +49,5 @@ export const tracks: Track[] = [{
 }, {
   "id": 23, "name": "Spain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/04.jpg"
 }, {
-  "id": 24, "name": "Texas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/15.jpg"
+  "id": 24, "name": "Texas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/15.jpg", winner: "DesMutter"
 }];
