@@ -35,7 +35,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 16, "name": "Miami", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/30.jpg", winner: "DesMutter"
 }, {
-  "id": 17, "name": "Monaco", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/05.jpg",
+  "id": 17, "name": "Monaco", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/05.jpg", winner: "vteniente"
 }, {
   "id": 18, "name": "Monza", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/11.jpg"
 }, {
@@ -45,7 +45,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 21, "name": "Saudi Arabia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/29.jpg", winner: "GBuffon"
 }, {
-  "id": 22, "name": "Singapore", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/12.jpg",
+  "id": 22, "name": "Singapore", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/12.jpg", winner: "GBuffon"
 }, {
   "id": 23, "name": "Spain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/04.jpg"
 }, {
