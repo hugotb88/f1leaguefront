@@ -55,7 +55,7 @@ export const db: DriverGeneral[] = [
         teamCSS: 'redbull',
         championshipPosition: 6,
         championshipPoints: 10
-    }
+    },
     {
         id: 7,
         name: 'kuppatrupa',
