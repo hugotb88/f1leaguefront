@@ -56,4 +56,22 @@ export const db: DriverGeneral[] = [
         championshipPosition: 6,
         championshipPoints: 10
     }
+    {
+        id: 7,
+        name: 'kuppatrupa',
+        gamertag: 'kuppatrupa',
+        team: 'McLaren',
+        teamCSS: 'mclaren',
+        championshipPosition: 7,
+        championshipPoints: 0
+    },
+    {
+        id: 8,
+        name: 'POMPEYA 86',
+        gamertag: 'POMPEYA 86',
+        team: 'Mercedes AMG Petronas',
+        teamCSS: 'mercedes',
+        championshipPosition: 8,
+        championshipPoints: 0
+    }
 ]
