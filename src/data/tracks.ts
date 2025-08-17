@@ -15,17 +15,17 @@ export const tracks: Track[] = [{
 }, {
   "id": 6, "name": "Brazil", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/16.jpg",
 }, {
-  "id": 7, "name": "Canada", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/06.jpg", 
+  "id": 7, "name": "Canada", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/06.jpg", winner:"vteniente"
 }, {
   "id": 8, "name": "China", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/02.jpg", winner:"vteniente"
 }, {
   "id": 9, "name": "Great Britain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/07.jpg", winner:"GBuffon"
 }, {
-  "id": 10, "name": "Hungary", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/09.jpg", 
+  "id": 10, "name": "Hungary", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/09.jpg", winner: "GralNicoli"
 }, {
   "id": 11, "name": "Imola", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/27.jpg", 
 }, {
-  "id": 12, "name": "Japan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/13.jpg", 
+  "id": 12, "name": "Japan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/13.jpg", winner:"vteniente"
 }, {
   "id": 13, "name": "Las Vegas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/31.jpg", 
 }, {
