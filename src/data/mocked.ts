@@ -9,7 +9,7 @@ export const db: DriverGeneral[] = [
         team: 'McLaren',
         teamCSS: 'mclaren',
         championshipPosition: 1,
-        championshipPoints: 146
+        championshipPoints: 164
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ export const db: DriverGeneral[] = [
         team: 'Scuderia Ferrari HP',
         teamCSS: 'ferrari',
         championshipPosition: 3,
-        championshipPoints: 65
+        championshipPoints: 90
     },
     {
         id: 4,
