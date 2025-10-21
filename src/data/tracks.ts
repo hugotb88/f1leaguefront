@@ -9,7 +9,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 3, "name": "Azerbaijan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/20.jpg"
 }, {
-  "id": 4, "name": "Bahrain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/03.jpg"
+  "id": 4, "name": "Bahrain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/03.jpg", winner: "DesMutter"
 }, {
   "id": 5, "name": "Belgium", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/10.jpg", winner:"vteniente"
 }, {
@@ -49,6 +49,6 @@ export const tracks: Track[] = [{
 }, {
   "id": 23, "name": "Spain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/04.jpg", winner:"GBuffon"
 }, {
-  "id": 24, "name": "Texas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/15.jpg", 
+  "id": 24, "name": "Texas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/15.jpg", winner: "vteniente"
   
 }];
