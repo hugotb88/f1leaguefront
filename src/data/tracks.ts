@@ -31,7 +31,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 14, "name": "Lusail", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/32.jpg", 
 }, {
-  "id": 15, "name": "Mexico", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/19.jpg",
+  "id": 15, "name": "Mexico", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/19.jpg", winner:"GBuffon"
 }, {
   "id": 16, "name": "Miami", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/30.jpg", 
 }, {
