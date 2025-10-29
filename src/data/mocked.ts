@@ -18,7 +18,7 @@ export const db: DriverGeneral[] = [
         team: 'Visa Cash App RB',
         teamCSS: 'vcarb',
         championshipPosition: 2,
-        championshipPoints: 163  
+        championshipPoints: 188  
     },
     {
         id: 1,

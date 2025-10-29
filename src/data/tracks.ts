@@ -45,7 +45,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 21, "name": "Saudi Arabia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/29.jpg", winner:"DesMutter"
 }, {
-  "id": 22, "name": "Singapore", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/12.jpg", 
+  "id": 22, "name": "Singapore", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/12.jpg", winner:"DesMutter"
 }, {
   "id": 23, "name": "Spain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/04.jpg", winner:"GBuffon"
 }, {
