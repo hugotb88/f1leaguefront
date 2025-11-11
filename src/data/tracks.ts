@@ -5,7 +5,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 1, "name": "Australia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/00.jpg"
 }, {
-  "id": 2, "name": "Austria", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/17.jpg"
+  "id": 2, "name": "Austria", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/17.jpg", winner:"GBuffon"
 }, {
   "id": 3, "name": "Azerbaijan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/20.jpg"
 }, {
@@ -13,7 +13,7 @@ export const tracks: Track[] = [{
 }, {
   "id": 5, "name": "Belgium", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/10.jpg", winner:"vteniente"
 }, {
-  "id": 6, "name": "Brazil", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/16.jpg",
+  "id": 6, "name": "Brazil", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/16.jpg", winner:"GBuffon"
 }, {
   "id": 7, "name": "Canada", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/06.jpg", winner:"vteniente"
 }, {
