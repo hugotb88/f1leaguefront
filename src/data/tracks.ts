@@ -21,15 +21,15 @@ export const tracks: Track[] = [{
 }, {
   "id": 9, "name": "Great Britain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/07.jpg", winner:"GBuffon"
 }, {
-  "id": 10, "name": "Hungary", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/09.jpg", winner: "GralNicoli"
+  "id": 10, "name": "Hungary", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/09.jpg", winner:"GralNicoli"
 }, {
-  "id": 11, "name": "Imola", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/27.jpg", 
+  "id": 11, "name": "Imola", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/27.jpg", winner: "vteniente"
 }, {
   "id": 12, "name": "Japan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/13.jpg", winner:"vteniente"
 }, {
-  "id": 13, "name": "Las Vegas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/31.jpg", 
+  "id": 13, "name": "Las Vegas", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/31.jpg", winner:"vteniente"
 }, {
-  "id": 14, "name": "Lusail", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/32.jpg", 
+  "id": 14, "name": "Lusail", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/32.jpg", winner:"GBuffon"
 }, {
   "id": 15, "name": "Mexico", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/19.jpg", winner:"GBuffon"
 }, {
@@ -40,8 +40,6 @@ export const tracks: Track[] = [{
   "id": 18, "name": "Monza", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/11.jpg", winner:"DesMutter"
 }, {
   "id": 19, "name": "Netherlands", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/26.jpg", 
-}, {
-  "id": 20, "name": "Portugal", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/28.jpg", 
 }, {
   "id": 21, "name": "Saudi Arabia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/29.jpg", winner:"DesMutter"
 }, {

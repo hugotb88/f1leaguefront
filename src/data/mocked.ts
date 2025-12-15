@@ -3,22 +3,22 @@ import type { DriverGeneral } from "../types"
 // Mocked data
 export const db: DriverGeneral[] = [
     {
-        id: 2,
-        name: 'Panda',
-        gamertag: 'DesMutter',
-        team: 'Visa Cash App RB',
-        teamCSS: 'vcarb',
-        championshipPosition: 1,
-        championshipPoints: 268  
-    },
-    {
         id: 3,
         name: 'Teniente',
         gamertag: 'vteniente',
         team: 'McLaren',
         teamCSS: 'mclaren',
+        championshipPosition: 1,
+        championshipPoints: 315
+    },
+    {
+        id: 2,
+        name: 'Panda',
+        gamertag: 'DesMutter',
+        team: 'Visa Cash App RB',
+        teamCSS: 'vcarb',
         championshipPosition: 2,
-        championshipPoints: 265
+        championshipPoints: 311  
     },
     {
         id: 1,
@@ -27,7 +27,7 @@ export const db: DriverGeneral[] = [
         team: 'Scuderia Ferrari HP',
         teamCSS: 'ferrari',
         championshipPosition: 3,
-        championshipPoints: 231
+        championshipPoints: 286
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ export const db: DriverGeneral[] = [
         team: 'Scuderia Ferrari HP',
         teamCSS: 'ferrari',
         championshipPosition: 4,
-        championshipPoints: 80
+        championshipPoints: 103
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const db: DriverGeneral[] = [
         team: 'Red Bull',
         teamCSS: 'redbull',
         championshipPosition: 5,
-        championshipPoints: 41
+        championshipPoints: 55
     },
     {
         id: 5,
