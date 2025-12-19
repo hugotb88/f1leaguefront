@@ -1,13 +1,13 @@
 import { Track } from "../types";
 
 export const tracks: Track[] = [{
-  "id": 0, "name": "Abu Dhabi", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/14.jpg" 
+  "id": 0, "name": "Abu Dhabi", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/14.jpg" , winner:"DesMutter"
 }, {
   "id": 1, "name": "Australia", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/00.jpg", winner: "vteniente"
 }, {
   "id": 2, "name": "Austria", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/17.jpg", winner:"GBuffon"
 }, {
-  "id": 3, "name": "Azerbaijan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/20.jpg"
+  "id": 3, "name": "Azerbaijan", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/20.jpg", winner:"GBuffon"
 }, {
   "id": 4, "name": "Bahrain", image: "https://ecdn.codemasters.com/ecdn/Racenet/PROD//F12024/event_location_hub/03.jpg", winner: "DesMutter"
 }, {
